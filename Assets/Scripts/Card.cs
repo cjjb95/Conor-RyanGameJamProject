@@ -5,7 +5,9 @@ using UnityEngine;
 public class Card : MonoBehaviour
 {
     public GameObject North, East, South, West;
-    CardType type;
+    public CardType type;
+    public GameObject front;
+    public bool played;
     int PlayerID;
 
     
