@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Deck : MonoBehaviour
 {
-   public List<Card> CardList;
+    public List<Card> CardList;
     public Text NoOfCards;
     Card clone;
     void Start()

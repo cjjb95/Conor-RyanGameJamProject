@@ -212,6 +212,8 @@ GameObject:
   - component: {fileID: 3155406488130033973}
   - component: {fileID: 3155406488130033972}
   - component: {fileID: 3155406488130033963}
+  - component: {fileID: -2145374608642160763}
+  - component: {fileID: 3101317713210097759}
   m_Layer: 5
   m_Name: 3MapCard
   m_TagString: Untagged
@@ -299,6 +301,31 @@ MonoBehaviour:
   type: 0
   front: {fileID: 3155406489080413450}
   played: 0
+--- !u!114 &-2145374608642160763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3155406488130033961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c6e24600b9afd41ad9b03771bd6337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+--- !u!225 &3101317713210097759
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3155406488130033961}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &3155406488407993704
 GameObject:
   m_ObjectHideFlags: 0

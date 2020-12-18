@@ -112,6 +112,8 @@ GameObject:
   - component: {fileID: 6220016900964380294}
   - component: {fileID: 6220016900964380295}
   - component: {fileID: 6220016900964380312}
+  - component: {fileID: -4212229492830291649}
+  - component: {fileID: 6021020458777882460}
   m_Layer: 5
   m_Name: DeadEndMapCard
   m_TagString: Untagged
@@ -199,6 +201,31 @@ MonoBehaviour:
   type: 0
   front: {fileID: 6220016902182652601}
   played: 0
+--- !u!114 &-4212229492830291649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220016900964380314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c6e24600b9afd41ad9b03771bd6337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+--- !u!225 &6021020458777882460
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220016900964380314}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &6220016901096324717
 GameObject:
   m_ObjectHideFlags: 0

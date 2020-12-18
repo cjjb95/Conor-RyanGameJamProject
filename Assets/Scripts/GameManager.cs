@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public static Deck deck;
     public static GridLayout grid;
     public static DiscardPile discardPile;
+    public static Variables variables = new Variables();
+    
     // Start is called before the first frame update
     void Start()
     {
